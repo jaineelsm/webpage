@@ -1,0 +1,28 @@
+@media only screen and (max-width: 480px) {
+  .size1280 {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .size480 {
+      display: none;
+  }
+}
+
+.size1280 {
+  width: 150px;
+  height: 150px;
+}
+
+.size480 {
+  width: 150px;
+  height: 150px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
